@@ -77,7 +77,7 @@ module ActionView
           html << %(<div class="fieldWithErrors"> \n)
         end
 
-        html << %(<input type="text" name="#{options[:name]}" value="#{datetime}" class="#{options[:class]} text-input" id="#{options[:id]}" />\n)
+        html << %(<input type="text" name="#{options[:name]}" value="#{datetime}" class="#{options[:class]} text-input" id="#{options[:id]}" size="#{options[:size]}" />\n)
         html << %(<img src="/images/calendar.png" id="#{options[:id]}_trigger" style="cursor: pointer;" title="Date & Time selector" />\n)
 
         calendar_options = Hash.new
