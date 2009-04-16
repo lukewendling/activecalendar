@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('activecalendar', '2009040801') do |p|
+Echoe.new('lukewendling-activecalendar', '2009041601') do |p|
   p.description    = "Rails 2.1-compatible activecalendar"
   p.url            = "http://github.com/lukewendling/activecalendar"
   p.author         = "Luke Wendling"
