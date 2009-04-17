@@ -1,4 +1,11 @@
-Calendar
+lukewendling-activecalendar
+
+Notes
+===========================
+text field size can now be specified in 'option' arg to either helper (todo: move to html_options arg)
+
+
+Calendar (original readme)
 ==========
 
 The calendar plugin is a rails plugin that enables changes the default date and datetime renderers to use the jscalendar library (http://www.dynarch.com/projects/calendar/).

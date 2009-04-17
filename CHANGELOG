@@ -7,5 +7,7 @@ Changelog for forked repo from http://activecalendar.googlecode.com/svn/trunk/ac
   
 2009040801
   
-  * init commit
+  * first commit post-fork
+  * text field size can be specified in helpers' options arg
+  * Rails 2.x compatible, i.e. f.date_select :start_date
 
